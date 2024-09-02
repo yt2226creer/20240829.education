@@ -9,7 +9,10 @@
 
 <body>
 <div class="container">
-<div >
+<div id="main visual">
+<img src>
+
+</div><!----/main---->
 
 
 
@@ -18,9 +21,6 @@
 
 
 
-
-
-    
 </div>
 
 
@@ -34,8 +34,10 @@
 
 
 
+<footer>
+&copy2020 PHOTO BOOK
 
-
+</footer>
 
 
 
