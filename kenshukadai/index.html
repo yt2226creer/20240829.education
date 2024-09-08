@@ -12,47 +12,53 @@
 
 <body>
     <div class="container">
-        <div id="main visual">
-        <h1><strong>PHOTO BOOK</strong></h1>
-        <img src="images/mainvisual.jpg" alt="house photo">
-        </div><!----/main visual---->
+      <header id="header">
+      <h1 class="site-title"><a href=index.html><img src="images/logo.svg" alt="PHOTO BOOK"></a></h1>
+      </header> 
+      <main>
+         <div id="mainvisual">
+         <img src="images/mainvisual.jpg" alt="house photo">
+         </div><!----/main visual---->
 
 
-            <div class="INDEX">
-            <h2>INDEX</h2>
-            <ol>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            </ol>
-            </div><!---/INDEX/---->
+            <section id="index">
+                <div class="inner">
+                <h2 class="section-title">INDEX</h2>
+                <ol class="index-list">
+                <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                </ol>
+                </div>
+            </section><!---/INDEX/---->
             
-                <div class="DETAIL">
-                    <div class="#">
-                    <h2>DETAIL</h2>
-                    <p><img src="images/detail.jpg" alt=photo></p>
-                    </div><!--------/###/-->
-                        <div class="section">
-                        <dl>タイトルタイトルタイトル</dl>
-                        <dt>著者</dt>
-                        <dd></dd>タイトルタイトルタイトル</dd>
-                        <dt>出版社</dt>
-                        <dd>タイトルタイトルタイトル</dd>
-                        <dt>発行年</dt>
-                        <dd>タイトルタイトルタイトル</dd>
-                        </div>
-                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p><br>    
-                        <p><a href="images/logo.svg" alt="logo">オンラインストアで見る</a></p>
-                        </div><!------/section/-->
-                </div><!-----/DETAIL/-->
-
-
-    <footer id="footer">
-    <p>&copy2020 PHOTO BOOK</p>
-    </footer>
-
-</div>
+                <section id="detail">
+                    <div class="inner">
+                    <h2 class="section-title">DETAIL</h2>
+                        <div class="content">
+                        <img src="images/detail.jpg" alt=photo>
+                            <div class="text">
+                            <p class="title">タイトルタイトルタイトル</p>
+                                <dl>
+                                    <dt>著者</dt>
+                                    <dd></dd>タイトルタイトルタイトル</dd>
+                                    <dt>出版社</dt>
+                                    <dd>タイトルタイトルタイトル</dd>
+                                    <dt>発行年</dt>
+                                    <dd>タイトルタイトルタイトル</dd>
+                                </dl>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p><br>    
+                            <p><a href="images/logo.svg" alt="logo">オンラインストアで見る</a></p>
+                            </div>
+                        </div><!------/content/-->
+                    </div><!-----/inner/-->
+                </section>
+         </main>
+        <footer id="footer">
+        <p class="inner">&copy2020 PHOTO BOOK</p>
+        </footer>
+    </div>
 </body>
 </html>
