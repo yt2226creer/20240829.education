@@ -32,8 +32,8 @@ header
 }
 #header .site-title{
     width: 160px;
-    line-height:1px
-    margin-bottom:15px
+    line-height:1px;
+    margin-bottom:15px;
 }
 #header .site-title a{
     display: block;
