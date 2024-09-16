@@ -130,17 +130,34 @@
     }
     header h1{
         position: absolute;
+        top: 7px;
     }
     header ul{
         display:inline-block;
         list-style:none;
+        padding: 20px 0;
     }
     header ul li{
         display: inline-block;
+        color: #6C757D;
+        line: height 1.3;
+        text-align:left;
+        vertical-align: middle;
+    }
+    header ul li:first-child{
+        margin-right: 20px;
+        }
+    header ul li h2{
+        font-size: 13px;
+        font-weight: normal;
+    }
+    header ul li p{
+        font-size: 32px;
+        font-weight: bold;
     }
     header ul li a{
         display: inline-block;
-        font-size: 22px;
+        font-size: 20px;
         color: #fff;
         text-decoration: none;
         background: #6c757d;
@@ -149,14 +166,16 @@
         padding: 0 15px;
         border-radius: 5px;
     }
+    header ul li a:hover{
+        color: rgba(255,255,255,.75);
+    }
     nav{
+        background:#343A40;
         text-align:center;
     }
     nav ul{
         width:1110px;
         margin: 0 auto;
-
-        background-color: lightgreen;
     }
     nav ul li{
         display:inline-block;
@@ -169,19 +188,47 @@
         text-decoration:none;
         padding:0 35px;
     }
+    nav ul li a:hover{
+        color: rgba(255,255,255,.75);
+    }
     .container{
         width:1110px;
     }
     .key-visual{
         height:600px;
+        text-align: right;
         background: #ff0;
+        background-image: url(images/top-image.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
     }
     .key-visual-content{
+        display:inline-block;
+        text-align: left;
+        margin-top:60px;
         width: 560px;
         height: 300px;
         background: #fff;
+        border:1px solid rgba(0,0,0,.125);
+        border-radius:5px;
+        padding: 30px 15px;
+        box-sizing:border-box;
     }
-
+.key-visual-content h2{
+    margin-bottom:15px;
+    font-size:55px;
+    font-weight:300;
+}
+.key-visual-content p{
+    margin-bottom:35px;
+    font-size:20px;
+    font-weight:300;
+    line-height: 1.5;
+}
+.key-visual-content .notice{
+    margin:0;
+    font-size: 13px;
+}
 </style>
 
 </head>
@@ -217,8 +264,8 @@
             <div class="key-visual">
                 <div class="inner">
                     <div class="key-visual-content">
-            <h2 class="">Hello, world!</h2>
-            <p class="content">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <h2>Hello, world!</h2>
+            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr>
             <p class="notice">It uses utility classes for typography and spacing to space content out within the larger container.</p>
             </div>
