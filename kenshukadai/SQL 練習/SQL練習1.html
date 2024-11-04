@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8">
+<meta name="研修" content="">
+<title>kennshuu</title>
+<style>
+.button {
+  background-color: #8f71ff;
+  border: 1px solid #866ec7;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  transition: background-color 300ms ease-in-out;
+}
+
+.button:hover {
+  background-color: #6B56BF;
+}
+
+.button.button-full {
+  width: 100%;
+}
+
+.button.button-outline {
+  background-color: #fff;
+  border: 1px solid #8f71ff;
+  color: #8f71ff;
+}
+
+.button.button-outline:hover {
+  background-color: #8f71ff;
+  color: #fff;
+  transition:
+    background-color 300ms ease-in-out,
+    color 300ms ease-in-out;
+}
+
+.button.button-secondary {
+  background-color: #aaa;
+  border: 1px solid #888;
+  color: #fff;
+}
+
+.button.button-secondary:hover {
+  background-color: #939393;
+}
+
+/** Base styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 2rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+</style>
+<body>
+  <div class="container">
+    <button class="button">ボタンだよ</button>
+    <a href="https://www.google.com/?hl=ja" class="button">リンクだよ</a>
+    <hr />
+    <button class="button button-full">横幅いっぱいのボタンだよ</button>
+    <hr />
+    <button class="button button-outline">ボタンだよ</button>
+    <button class="button button-secondary">ボタンだよ</button>
+  </div>
+</body>
+</html>
