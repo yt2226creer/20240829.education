@@ -15,3 +15,4 @@ console.log(addNumber);
 var combinationText="12"+"34";
 console.log(combinationText);
 var Number=356;
+console.log(number)
