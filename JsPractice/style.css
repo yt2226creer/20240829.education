@@ -1,11 +1,12 @@
 @charset
 
 body{
-    margin:0 ;
+    margin:0 auto;
 }
 
 .header{
     background: red;
+    width: 980;
     height: 80apx;
     text-align: center;
     color: #fff;
@@ -13,6 +14,7 @@ body{
 
 .main{
     background: blue;
+    width: 980;
     height: 500apx;
     text-align: center;
     color: #fff;
@@ -20,6 +22,7 @@ body{
 
 .footer{
     background: Black;
+    width: 980;
     height: 80apx;
     text-align: center;
     color: #fff;
