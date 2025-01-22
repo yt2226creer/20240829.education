@@ -1,7 +1,7 @@
 @charset
 
 body{
-    margin:0 auto;
+    margin:0 ;
 }
 
 .header{
@@ -10,15 +10,35 @@ body{
     height: 80apx;
     text-align: center;
     color: #fff;
+    margin left: auto;
+    margin right: auto;
 }
-
-.main{
+.main-wraps{
     background: blue;
     width: 980;
     height: 500apx;
     text-align: center;
     color: #fff;
+    margin left: auto;
+    margin right: auto;
 }
+.main{
+    background: blue;
+    width: 680;
+    height: 500apx;
+    text-align: center;
+    color: #fff;
+    margin left: auto;
+    margin right: auto;
+}
+
+.aside{
+    background: green;
+    width: 300;
+    height: 500apx;
+    text-align: center;
+    color: #fff;
+    float
 
 .footer{
     background: Black;
@@ -26,4 +46,6 @@ body{
     height: 80apx;
     text-align: center;
     color: #fff;
+    margin left: auto;
+    margin right: auto;
 }
