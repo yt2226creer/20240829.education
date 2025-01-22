@@ -1,0 +1,26 @@
+@charset
+
+body{
+    margin:0 ;
+}
+
+.header{
+    background: red;
+    height: 80apx;
+    text-align: center;
+    color: #fff;
+}
+
+.main{
+    background: blue;
+    height: 500apx;
+    text-align: center;
+    color: #fff;
+}
+
+.footer{
+    background: Black;
+    height: 80apx;
+    text-align: center;
+    color: #fff;
+}
